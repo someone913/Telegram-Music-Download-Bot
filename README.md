@@ -21,15 +21,15 @@
 
 ### Credits:
 
-###- [hirunaofficial Telegram-Group-Voice-Chat-Bot ❤️❤️](https://github.com/hirunaofficial/Telegram-Group-Voice-Chat-Bot/)
+#- [hirunaofficial Telegram-Group-Voice-Chat-Bot ❤️❤️](https://github.com/hirunaofficial/Telegram-Group-Voice-Chat-Bot/)
 
-###- [Pyrogram Library](https://github.com/pyrogram/pyrogram)
+# - [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 
 ### Developers:
 
 - [@supunma](https://t.me/supunma)
 - 
-### Commands:
+## Commands:
 - In Groups - `/song <song name>`<img src="https://camo.githubusercontent.com/2c8b3670d933220ae3c023fa1d568682975cce3f10799d0d3ff5ecac394b4ee8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f31326f75664342304d795a31476f2f67697068792e676966" width="50px">
 - In Private - ' /song <song name>' <img src="https://camo.githubusercontent.com/2c8b3670d933220ae3c023fa1d568682975cce3f10799d0d3ff5ecac394b4ee8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f31326f75664342304d795a31476f2f67697068792e676966" width="50px">
 
