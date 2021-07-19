@@ -13,7 +13,7 @@ pm_start_text = """
 Hey [{}](tg://user?id={}) 👋 I'm Telegram song  Download Bot 🎧
 
 Just Send me ✍️   The MP3 Name 👍   You Want to Download 👌
-📜 Example: `/mp3 alone`
+📜 Example: `/song upamawak `
 
 ~ @fastsongdownloderslbzbot 🤖 
 """
