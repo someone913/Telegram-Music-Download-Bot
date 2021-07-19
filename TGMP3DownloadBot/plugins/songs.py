@@ -26,7 +26,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('Searching 🔍 Your MP3 Song, Please Wait\n~ @mp3downloadtgbot 🎵')
+    m = message.reply('Searching 🔍 Your MP3 Song, Please Wait\n~ @fastsongdownloderslbzbot ⭕️')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -44,17 +44,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "Sorry 🙏 You're MP3 Song is Not Found 🖐 Please Try Another Keyword 👊\n\n~ @mp3downloadtgbot 🎵"
+            "Sorry 🙏 You're MP3 Song is Not Found 🖐 Please Try Another Keyword 👊\n\n~ @fastsongdownloderslbzbot ⭕️"
         )
         print(str(e))
         return
-    m.edit("Downloading 💪 Your MP3 Song, Please Wait\n~ @mp3downloadtgbot 🎵")
+    m.edit("Downloading 💪 Your MP3 Song, Please Wait\n~ @fastsongdownloderslbzbot ⭕️")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '👉 TG MP3 Download Bot 👈 \n~ @mp3downloadtgbot 🎵'
+        rep = '👉 TG MP3 Download Bot 👈 \n~ @fastsongdownloderslbzbot ⭕️'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -62,7 +62,7 @@ def song(client, message):
         s = message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit('Failed to download song 😢\n\n~ @mp3downloadtgbot 🎵')
+        m.edit('Failed to download song 😢\n\n~ @fastsongdownloderslbzbot ⭕️')
         print(e)
 
     try:
