@@ -21,7 +21,7 @@
 
 ### Credits:
 
-#- [hirunaofficial Telegram-Group-Voice-Chat-Bot ❤️❤️](https://github.com/hirunaofficial/Telegram-Group-Voice-Chat-Bot/)
+# - [hirunaofficial Telegram-Group-Voice-Chat-Bot ❤️❤️](https://github.com/hirunaofficial/Telegram-Group-Voice-Chat-Bot/)
 
 # - [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 
