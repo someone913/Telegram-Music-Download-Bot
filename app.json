@@ -1,5 +1,5 @@
 {
-    "name": "TG MP3 Download Bot",
+    "name": "TG song Download Bot",
     "description": "A bot that can download songs.",
     "env": {
         "API_ID": {
