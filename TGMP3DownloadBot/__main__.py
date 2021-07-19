@@ -8,14 +8,14 @@ from TGMP3DownloadBot import MP3DownloadBot as app
 from TGMP3DownloadBot import LOGGER
 
 pm_start_text = """
-🎵 Telegram MP3 Download Bot 🎵
+ 🎧 Telegram Song  Download Bot 🎧
 
-Hey [{}](tg://user?id={}) 👋 I'm Telegram MP3 Download Bot 🎵
+Hey [{}](tg://user?id={}) 👋 I'm Telegram song  Download Bot 🎧
 
-Just Send me ✍️ The MP3 Name 👍 You Want to Download 👌
-👀 Example: `/mp3 alone`
+Just Send me ✍️   The MP3 Name 👍   You Want to Download 👌
+📜 Example: `/mp3 alone`
 
-~ @mp3downloadtgbot 🎵
+~ @fastsongdownloderslbzbot 🤖 
 """
 
 
@@ -27,13 +27,30 @@ async def start(client, message):
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        text="➕ Add Me to Your Group", url="t.me/mp3downloadtgbot?startgroup=true"
-                    )
-                ]
+                    [
+                        InlineKeyboardButton(
+                             text=" 👪 Bot Support Group ",
+                             url="https://t.me/slbotzone"),
+                         InlineKeyboardButton(
+                             text=" 🔔 Bot Update Channel ",
+                             url="https://t.me/sl_bot_zone")
+                    ],
+                    [
+                        InlineKeyboardButton(
+                             text=" 📦 Github Socure Code ",
+                             url="https://github.com/youtubeslgeekshow/Telegram-Music-Download-Bot"),
+                         InlineKeyboardButton(
+                             text=" 💝 Subscribe Our Youtube  Channel ",
+                             url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA")
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text=" ⚡️ Developer ",
+                             url="https://t.me/supunma") 
+                    
+                    ]
             ]
-        )
+        ),
     else:
         btn = None
     await message.reply(pm_start_text.format(name, user_id), reply_markup=btn)
@@ -41,5 +58,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("TG MP3 Download Bot is online.")
+LOGGER.info("TG Song  Download Bot is online 👨‍💻 .")
 idle()
