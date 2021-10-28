@@ -8,14 +8,14 @@ from TGMP3DownloadBot import MP3DownloadBot as app
 from TGMP3DownloadBot import LOGGER
 
 pm_start_text = """
- 🎧 Telegram Song  Download Bot 🎧
+ 🎧 Telegram Musik Downloader Bot 🎧
 
-Hey [{}](tg://user?id={}) 👋 I'm Telegram song  Download Bot 🎧
+Hallo Gaess [{}](tg://user?id={}) 👋 Saya Adalah Bot Telegram Yang Dibuat Untuk Mengunduh Musik  🎧
 
-Just Send me ✍️   The MP3 Name 👍   You Want to Download 👌
-📜 Example: `/song upamawak `
+Kirimkan saja kepada saya ✍️   judul musik 👍   yang anda inginkan 👌
+📜 Contoh: `/song Indonesia Pusaka `
 
-~ @fastsongdownloderslbzbot 🤖 
+~ @MusikdlroBot🤖 
 """
 
 
@@ -29,24 +29,24 @@ async def start(client, message):
             [
                     [
                         InlineKeyboardButton(
-                             text=" 👪 Bot Support Group ",
-                             url="https://t.me/slbotzone"),
+                             text=" 👦 Own Bot ",
+                             url="https://t.me/ebnudoang"),
                          InlineKeyboardButton(
-                             text=" 🔔 Bot Update Channel ",
-                             url="https://t.me/sl_bot_zone")
+                             text=" 📍 Instagram ",
+                             url="https://www.instagram.com/ebnu_am/")
                     ],
                     [
                         InlineKeyboardButton(
-                             text=" 📦 Github Socure Code ",
-                             url="https://github.com/youtubeslgeekshow/Telegram-Music-Download-Bot"),
+                             text=" Stiker Telegram ",
+                             url="https://telegra.ph/Stiker-Telegram-10-28"),
                          InlineKeyboardButton(
-                             text=" 💝 Subscribe Our Youtube  Channel ",
-                             url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA")
+                             text=" Stiker WhatsApp ",
+                             url="https://telegra.ph/Stiker-WhatsApp-10-28")
                     ],
                     [
                         InlineKeyboardButton(
-                            text=" ⚡️ Developer ",
-                             url="https://t.me/supunma") 
+                            text=" Bot Lainya ",
+                             url="https://telegra.ph/Stiker-WhatsApp-10-28") 
                     
                     ]
             ]
